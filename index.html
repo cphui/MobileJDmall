@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script>
+		    (function(){
+			    	var html = document.documentElement;
+			    	var hWidth = html.getBoundingClientRect().width;
+			    	if (hWidth < 320) {
+			    		hWidth = 320;
+			    	} else if (hWidth > 640){
+			    		hWidth = 640;
+			    	}
+				html.style.fontSize = hWidth/15 + "px";
+		    })()
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/reset.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<!--顶部搜索栏-->
+		<nav class="search-nav">
+			<div class="search-cover"></div>
+			<div class="search-box">
+				<div class="search-logo">
+					<i class="jd-sprite-icon"></i>
+				</div>
+				<form action="" class="search-form">
+					<div class="search-form-box">
+						<span class="jd-sprite-icon"></span>
+						<div class="search-form-input">
+							<input id="search-text" type="text" maxlength="20" autocomplete="off" placeholder="搜索京东商品/店铺"/>
+						</div>
+					</div>
+				</form>
+				<a href="#">
+					登录
+				</a>
+			</div>
+		</nav>
+		<!--底部导航栏-->
+		<div class="bottom-bar">
+			<ul class="tab5">
+				<li>
+					<span class="bar-img">
+						<a href="javascript:;">
+							<img src="img/a-home.png"/>
+						</a>
+					</span>
+				</li>
+				<li>
+					<span class="bar-img">
+						<a href="javascript:;">
+							<img src="img/n-catergry.png"/>
+						</a>
+					</span>
+				</li>
+				<li>
+					<span class="bar-img">
+						<a href="javascript:;">
+							<img src="img/n-find.png"/>
+						</a>
+					</span>
+				</li>
+				<li>
+					<span class="bar-img">
+						<a href="javascript:;">
+							<img src="img/n-cart.png"/>
+						</a>
+					</span>
+				</li>
+				<li>
+					<span class="bar-img">
+						<a href="javascript:;">
+							<img src="img/n-me.png"/>
+						</a>
+					</span>
+				</li>
+			</ul>
+		</div>
+		<!--返回顶部按钮-->
+		<div class="bottom-to-top">
+			<img src="img/scroll-to-top-icon.png"/>
+		</div>
+		<div class="viewport-new">
+			<section class="slider">
+				<ul class="slider-box">
+					<li>
+						<a href="javascipt:;">
+							<img src="img/slider-1.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="javascipt:;">
+							<img src="img/slider-2.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="javascipt:;">
+							<img src="img/slider-3.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="javascipt:;">
+							<img src="img/slider-4.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="javascipt:;">
+							<img src="img/slider-5.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="javascipt:;">
+							<img src="img/slider-6.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="javascipt:;">
+							<img src="img/slider-7.jpg"/>
+						</a>
+					</li>
+					<li>
+						<a href="javascipt:;">
+							<img src="img/slider-8.jpg"/>
+						</a>
+					</li>
+				</ul>
+				<div class="focus-btn">
+					<span class="active"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</section>
+			<nav class="appcenter">
+				<div class="container-bg">
+					<img src="img/container-bg.jpg"/>
+				</div>
+				<div class="quick-entry-nav">
+					<a href="javascript:;">
+						<img src="img/jingdongchaoshi.png"/>
+						<span>京东超市</span>
+					</a>
+					<a href="javascript:;">
+						<img src="img/quanqiugou.png"/>
+						<span>全球购</span>
+					</a>
+					<a href="javascript:;">
+						<img src="img/fuzhuangcheng.png"/>
+						<span>服装城</span>
+					</a>
+					<a href="javascript:;">
+						<img src="img/jingdongshengxian.png"/>
+						<span>京东生鲜</span>
+					</a>
+					<a href="javascript:;">
+						<img src="img/jingdongdaojia.png"/>
+						<span>京东到家</span>
+					</a>
+					<a href="javascript:;">
+						<img src="img/chongzhizhongxin.png"/>
+						<span>充值中心</span>
+					</a>
+					<a href="javascript:;">
+						<img src="img/huizhuanqian.png"/>
+						<span>惠赚钱</span>
+					</a>
+					<a href="javascript:;">
+						<img src="img/lingquan.png"/>
+						<span>领券</span>
+					</a>
+					<a href="javascript:;">
+						<img src="img/wuliuchaxun.png"/>
+						<span>物流查询</span>
+					</a>
+					<a href="javascript:;">
+						<img src="img/lingjingdou.png"/>
+						<span>领京豆</span>
+					</a>
+				</div>
+			</nav>
+			<section class="jd-express-news">
+				<a class="jd-news-tit" href="javascript:;">
+					<img src="img/jd-news-tit.png"/>
+				</a>
+				<div class="news-list-wrapper">
+					<ul class="news-list">
+						<li class="news-item">
+							<a href="javascript:;">
+								<span class="red">荐</span>
+								周五海囤日，低至199减100！
+							</a>
+						</li>
+						<li class="news-item">
+							<a href="javascript:;">
+								<span class="red">荐</span>
+								电视家影 买会员“送”电视！
+							</a>
+						</li>
+						<li class="news-item">
+							<a href="javascript:;">
+								<span class="red">抢</span>
+								iPhone 7红色特别版发售
+							</a>
+						</li>
+					</ul>
+				</div>
+				<a class="jd-news-more" href="javascript:;">
+					<i class="line"></i>
+					更多
+				</a>
+			</section>
+			<!--京东秒杀-->
+			<section class="seckill">
+				<div class="seckill-tit">
+					<a class="seckill-left-link" href="javascript:;">
+						<img src="img/seckill-logo.png"/>
+						<strong>14点场</strong>
+						<div class="seckill-timer">
+							<div class="seckill-time">
+								<span>00</span>
+							</div>
+							<span>:</span>
+							<div class="seckill-time">
+								<span>00</span>
+							</div>
+							<span>:</span>
+							<div class="seckill-time">
+								<span>00</span>
+							</div>
+						</div>
+					</a>
+					<a class="seckill-more-link" href="javascript:;">
+						要你尽情宠爱自己
+						<i class="seckill-more-icon"></i>
+					</a>
+				</div>
+				<div class="seckill-slider">
+					<ul>
+						<li>
+							<div class="seckill-item-img">
+								<a href="javascript:;">
+									<img src="img/seckill-slider1.jpg"/>
+									<div class="seckill-tip">好货</div>
+								</a>
+							</div>
+							<div class="seckill-item-price">
+								<span class="seckill-new-price">
+									<em>¥</em>
+									79
+								</span>
+								<span class="seckill-original-price">
+									<em>¥</em>150<hr />
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="seckill-item-img">
+								<a href="javascript:;">
+									<img src="img/seckill-slider1.jpg"/>
+									<div class="seckill-tip">好货</div>
+								</a>
+							</div>
+							<div class="seckill-item-price">
+								<span class="seckill-new-price">
+									<em>¥</em>
+									79
+								</span>
+								<span class="seckill-original-price">
+									<em>¥</em>150<hr />
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="seckill-item-img">
+								<a href="javascript:;">
+									<img src="img/seckill-slider1.jpg"/>
+									<div class="seckill-tip">好货</div>
+								</a>
+							</div>
+							<div class="seckill-item-price">
+								<span class="seckill-new-price">
+									<em>¥</em>
+									79
+								</span>
+								<span class="seckill-original-price">
+									<em>¥</em>150<hr />
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="seckill-item-img">
+								<a href="javascript:;">
+									<img src="img/seckill-slider1.jpg"/>
+									<div class="seckill-tip">好货</div>
+								</a>
+							</div>
+							<div class="seckill-item-price">
+								<span class="seckill-new-price">
+									<em>¥</em>
+									79
+								</span>
+								<span class="seckill-original-price">
+									<em>¥</em>150<hr />
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="seckill-item-img">
+								<a href="javascript:;">
+									<img src="img/seckill-slider1.jpg"/>
+									<div class="seckill-tip">好货</div>
+								</a>
+							</div>
+							<div class="seckill-item-price">
+								<span class="seckill-new-price">
+									<em>¥</em>
+									79
+								</span>
+								<span class="seckill-original-price">
+									<em>¥</em>150<hr />
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="seckill-item-img">
+								<a href="javascript:;">
+									<img src="img/seckill-slider1.jpg"/>
+									<div class="seckill-tip">好货</div>
+								</a>
+							</div>
+							<div class="seckill-item-price">
+								<span class="seckill-new-price">
+									<em>¥</em>
+									79
+								</span>
+								<span class="seckill-original-price">
+									<em>¥</em>150<hr />
+								</span>
+							</div>
+						</li>
+						<li class="seckill-all-item">
+							<a href="javascript:;">
+								<i class="show-all-icon"></i>
+								<span class="show-all-tit">查看全部</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="floor">
+				<div class="floor-container clearfix">
+					<a href="javascript:;" class="item-col2">
+						<div class="item-tit">
+							<strong>排行榜</strong>
+							<p>好货大赏</p>
+						</div>
+						<div class="item-img">
+							<img src="img/paihangbang1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col2">
+						<div class="item-tit">
+							<strong>闪购</strong>
+							<p>品牌限时特卖</p>
+						</div>
+						<div class="item-img">
+							<img src="img/shangou1.jpg"/>
+						</div>
+					</a>
+				</div>
+			</section>
+			<!--爱生活-->
+			<section class="floor">
+				<div class="floor-tit">
+					<img class="floor-tit-bgimg" src="img/floor-tit.png"/>
+					<span class="tit-img">
+						<img src="img/aishenghuo-titimg.jpg"/>
+					</span>
+				</div>
+				<div class="floor-container clearfix">
+					<a href="javascript:;" class="item-col2">
+						<div class="item-tit">
+							<strong>玩3C</strong>
+							<p>抢iPhone 7红</p>
+						</div>
+						<div class="item-img">
+							<img src="img/wan3c1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col2">
+						<div class="item-tit">
+							<strong>京东家电</strong>
+							<p>低至五折</p>
+							<span style="background: #ff4a7d;">家电家装节</span>
+						</div>
+						<div class="item-img">
+							<img src="img/jingdongjiadian1.jpg"/>
+						</div>
+					</a>
+				</div>
+				<div class="floor-container clearfix">
+					<a href="javascript:;" class="item-col2">
+						<div class="item-tit">
+							<strong>京东超市</strong>
+							<p>限量1元抢</p>
+							<span style="background: #ff4a7d;">满199减100</span>
+						</div>
+						<div class="item-img">
+							<img src="img/jingdongchaoshi1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col2">
+						<div class="item-tit">
+							<strong>爱家</strong>
+							<p>居家物199-100</p>
+						</div>
+						<div class="item-img">
+							<img src="img/aijia1.jpg"/>
+						</div>
+					</a>
+				</div>
+				<div class="floor-container clearfix">
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>爱宝宝</strong>
+							<p>大牌1元抢</p>
+						</div>
+						<div class="item-img">
+							<img src="img/aibaobao1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>爱美丽</strong>
+							<p>面膜买一赠一</p>
+						</div>
+						<span style="background: #ff4a7d;">超值！</span>
+						<div class="item-img">
+							<img src="img/aimeili1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>爱吃</strong>
+							<p>部分买一赠一</p>
+						</div>
+						<div class="item-img">
+							<img src="img/aichi1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>爱逛</strong>
+							<p>男装买3免一</p>
+						</div>
+						<span style="background: #ff4a7d;">购自营</span>
+						<div class="item-img">
+							<img src="img/aiguang1.jpg"/>
+						</div>
+					</a>
+				</div>
+			</section>
+			<section class="floor">
+				<div class="container-col1">
+					<div class="container-col1-slider slider-small1">
+						<ul class="slider-box">
+							<li>
+								<a href="javascript:;">
+									<img src="img/guanggao1.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<img src="img/guanggao2.jpg"/>
+								</a>
+							</li>
+						</ul>
+						<div class="focus-btn">
+							<span class="active"></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--享品质-->
+			<section class="floor">
+				<div class="floor-tit">
+					<img class="floor-tit-bgimg" src="img/floor-tit.png"/>
+					<span class="tit-img">
+						<img src="img/xiangpinzhi.jpg"/>
+					</span>
+				</div>
+				<div class="floor-container clearfix">
+					<a href="javascript:;" class="item-col2">
+						<div class="item-tit">
+							<strong>全球尖货</strong>
+							<p>全球自营好货</p>
+							<span style="background: #952dff;">超辣火鸡面</span>
+						</div>
+						<div class="item-img">
+							<img src="img/quanqiujianhuo1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col2">
+						<div class="item-tit">
+							<strong>京东精选</strong>
+							<p>畅销机油排行</p>
+						</div>
+						<div class="item-img">
+							<img src="img/jingdongjingxuan1.jpg"/>
+						</div>
+					</a>
+				</div>
+				<div class="floor-container clearfix">
+					<a href="javascript:;" class="item-col2">
+						<div class="item-tit">
+							<strong>京东体育</strong>
+							<p>垂钓3折起</p>
+						</div>
+						<div class="item-img">
+							<img src="img/jingdongtiyu1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col2">
+						<div class="item-tit">
+							<strong>奢品大牌</strong>
+							<p>每满500减60</p>
+							<span style="background: #952dff;">巴塞尔钟表展</span>
+						</div>
+						<div class="item-img">
+							<img src="img/shepingdapai1.jpg"/>
+						</div>
+					</a>
+				</div>
+				<div class="floor-container clearfix">
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>环球时尚</strong>
+							<p>抢50元券</p>
+						</div>
+						<span style="background: #952dff;">美炸天</span>
+						<div class="item-img">
+							<img src="img/huanqiushishang1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>珠宝首饰</strong>
+							<p>大牌PK</p>
+						</div>
+						<div class="item-img">
+							<img src="img/zhubaoshoushi1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>设计师</strong>
+							<p>潮流设计精选</p>
+						</div>
+						<div class="item-img">
+							<img src="img/shejishi1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>达人精选</strong>
+							<p>男神春日穿搭</p>
+						</div>
+						<div class="item-img">
+							<img src="img/darenjingxuan1.jpg"/>
+						</div>
+					</a>
+				</div>
+			</section>
+			<section class="floor">
+				<div class="container-col1">
+					<div class="container-col1-slider slider-small2">
+						<ul class="slider-box">
+							<li>
+								<a href="javascript:;">
+									<img src="img/guanggao3.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<img src="img/guanggao4.jpg"/>
+								</a>
+							</li>
+						</ul>
+						<div class="focus-btn">
+							<span class="active"></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--购特色-->
+			<section class="floor">
+				<div class="floor-tit">
+					<img class="floor-tit-bgimg" src="img/floor-tit.png"/>
+					<span class="tit-img">
+						<img src="img/goutese.jpg"/>
+					</span>
+				</div>
+				<div class="floor-container clearfix">
+					<a href="javascript:;" class="item-col2 item-col2-big">
+						<div class="item-tit">
+							<strong>智能生活</strong>
+							<p>塑造完美身材</p>
+						</div>
+						<div class="item-img">
+							<img src="img/zhinengshenghuo1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>京东众筹</strong>
+							<p>1元秒杀</p>
+						</div>
+						<span style="background: #0072f2;">免费送</span>
+						<div class="item-img">
+							<img src="img/jingdongzhongchou1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>京东旅行</strong>
+							<p>不上班去旅游</p>
+						</div>
+						<div class="item-img">
+							<img src="img/jingdonglvxing1.jpg"/>
+						</div>
+					</a>
+				</div>
+				<div class="floor-container clearfix">
+					<a href="javascript:;" class="item-col2 item-col2-big">
+						<div class="item-tit">
+							<strong>白条商城</strong>
+							<p>华为12期免息</p>
+						</div>
+						<div class="item-img">
+							<img src="img/baitiaoshnagcheng1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>爱车生活</strong>
+							<p>立减9000元</p>
+						</div>
+						<span style="background: #0072f2;">限时惠</span>
+						<div class="item-img">
+							<img src="img/aicheshenghuo1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>电影娱乐</strong>
+							<p>1元搞iPhone</p>
+						</div>
+						<div class="item-img">
+							<img src="img/dianyingyule1.jpg"/>
+						</div>
+					</a>
+				</div>
+				<div class="floor-container clearfix">
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>清仓二手</strong>
+							<p>9成新iPhone</p>
+						</div>
+						<span style="background: #0072f2;">2288元</span>
+						<div class="item-img">
+							<img src="img/qingchangershou1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>大药房</strong>
+							<p>温阳补肾</p>
+						</div>
+						<div class="item-img">
+							<img src="img/dayaofang1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>陪伴宝宝</strong>
+							<p>1元秒好货</p>
+						</div>
+						<span style="background: #0072f2;">抢好货</span>
+						<div class="item-img">
+							<img src="img/penbangbaobao1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>京东拍卖</strong>
+							<p>茗茶滴滴醇香</p>
+						</div>
+						<div class="item-img">
+							<img src="img/jingdonpaimai1.jpg"/>
+						</div>
+					</a>
+				</div>
+			</section>
+			<section class="floor">
+				<div class="container-col1">
+					<div class="container-col1-slider slider-small3">
+						<ul class="slider-box">
+							<li>
+								<a href="javascript:;">
+									<img src="img/guanggao5.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<img src="img/guanggao6.jpg"/>
+								</a>
+							</li>
+						</ul>
+						<div class="focus-btn">
+							<span class="active"></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--逛商场-->
+			<section class="floor">
+				<div class="floor-tit">
+					<img class="floor-tit-bgimg" src="img/floor-tit.png"/>
+					<span class="tit-img">
+						<img src="img/guangshangchang1.jpg"/>
+					</span>
+				</div>
+				<div class="floor-container clearfix">
+					<a href="javascript:;" class="item-col2">
+						<div class="item-tit">
+							<strong>时尚馆</strong>
+							<p>春新衣</p>
+							<span style="background: #7b1aff;">低至5折</span>
+						</div>
+						<div class="item-img">
+							<img src="img/shishangguan1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col2">
+						<div class="item-tit">
+							<strong>电脑办公</strong>
+							<p>99元触感升级</p>
+						</div>
+						<div class="item-img">
+							<img src="img/diannaobangon1.jpg"/>
+						</div>
+					</a>
+				</div>
+				<div class="floor-container clearfix">
+					<a href="javascript:;" class="item-col2">
+						<div class="item-tit">
+							<strong>美食城</strong>
+							<p>99任选5件</p>
+						</div>
+						<div class="item-img">
+							<img src="img/meishicheng1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col2">
+						<div class="item-tit">
+							<strong>大家电馆</strong>
+							<p>百台试用</p>
+							<span style="background: #7b1aff;">满千减百</span>
+						</div>
+						<div class="item-img">
+							<img src="img/dajiadianguan1.jpg"/>
+						</div>
+					</a>
+				</div>
+				<div class="floor-container clearfix">
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>中外名酒</strong>
+							<p>红酒188两件</p>
+						</div>
+						<div class="item-img">
+							<img src="img/zhongwaiminjiu1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>手机数码</strong>
+							<p>红米4X抢购</p>
+						</div>
+						<div class="item-img">
+							<img src="img/shoujishuma1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>鞋靴箱包</strong>
+							<p>出游季</p>
+						</div>
+						<div class="item-img">
+							<img src="img/xiexuexiangbao1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>小家电馆</strong>
+							<p>白条6期免息</p>
+						</div>
+						<div class="item-img">
+							<img src="img/xiaojiadianguan1.jpg"/>
+						</div>
+					</a>
+				</div>
+				<div class="floor-container clearfix">
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>生鲜馆</strong>
+							<p>新品尝鲜</p>
+						</div>
+						<div class="item-img">
+							<img src="img/shengxianguan1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>钟表馆</strong>
+							<p>每满500减60</p>
+						</div>
+						<div class="item-img">
+							<img src="img/zhongbiaoguan1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>图书音像</strong>
+							<p>每满100减40</p>
+						</div>
+						<div class="item-img">
+							<img src="img/tushuyingxiang1.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col4">
+						<div class="item-tit">
+							<strong>汽车用品</strong>
+							<p>20抵100</p>
+						</div>
+						<div class="item-img">
+							<img src="img/qicheyongpin1.jpg"/>
+						</div>
+					</a>
+				</div>
+			</section>
+			<!--发现好店-->
+			<section class="floor">
+				<div class="floor-tit">
+					<img class="floor-tit-bgimg" src="img/floor-tit.png"/>
+					<span class="tit-img">
+						<img src="img/faxianhaodian.jpg"/>
+					</span>
+					<span class="more-shop-link">
+						更多精彩
+						<i></i>
+					</span>
+				</div>
+				<div class="floor-container clearfix">
+					<a href="javascript:;" class="item-col2">
+						<div class="item-find-tit">
+							<strong>精选</strong>
+							<p>20家好店为你精心推荐</p>
+						</div>
+						<div class="item-find-img clearfix">
+							<img src="img/jingxuan2.jpg"/>
+							<img src="img/jingxuan1.jpg"/>
+							<p>SupFire京东自营专区</p>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col2">
+						<div class="item-find-tit">
+							<strong>女装</strong>
+							<p>女神教室</p>
+						</div>
+						<div class="item-find-img clearfix">
+							<img src="img/nvzhuang1.jpg"/>
+							<img src="img/nvzhuang2.jpg"/>
+							<p>小马夫旗舰店</p>
+						</div>
+					</a>
+				</div>
+			</section>
+			<!--优选清单-->
+			<section class="floor">
+				<div class="floor-tit">
+					<img class="floor-tit-bgimg" src="img/floor-tit.png"/>
+					<span class="tit-img">
+						<img src="img/youxuanqingdan.jpg"/>
+					</span>
+					<span class="more-shop-link">
+						更多精彩
+						<i></i>
+					</span>
+				</div>
+				<div class="floor-container clearfix">
+					<a href="javascript:;" class="item-col2">
+						<div class="item-list-tit">
+							<strong>让你跑步不再枯燥乏味！运动耳机盘点</strong>
+						</div>
+						<div class="item-list-img clearfix">
+							<img src="img/list1.jpg"/>
+							<img src="img/list2.jpg"/>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col2">
+						<div class="item-list-tit">
+							<strong>宅家喜爱追剧，平板电脑必不可少</strong>
+						</div>
+						<div class="item-list-img clearfix">
+							<img src="img/list3.jpg"/>
+							<img src="img/list4.jpg"/>
+						</div>
+					</a>
+				</div>
+			</section>
+			<!--直播-->
+			<section class="floor">
+				<div class="floor-tit">
+					<img class="floor-tit-bgimg" src="img/floor-tit.png"/>
+					<span class="tit-img">
+						<img src="img/zhibo.jpg"/>
+					</span>
+					<span class="more-shop-link">
+						更多精彩
+						<i></i>
+					</span>
+				</div>
+				<div class="floor-container clearfix">
+					<a href="javascript:;" class="item-col2-nopadding">
+						<div class="item-live-tit">
+							<strong>
+								<span class="live-tit">穿搭</span>
+								<span class="live-icon"></span>
+							</strong>
+							<p>男神带你装高潮</p>
+						</div>
+						<div class="item-live-img">
+							<img src="img/zhibo1.jpg"/>
+						</div>
+						<div class="live-info">
+							<p class="live-type">
+								<i></i>
+								北京
+							</p>
+							<span class="live-animate"></span>
+						</div>
+					</a>
+					<a href="javascript:;" class="item-col2-nopadding">
+						<div class="item-live-tit">
+							<strong>
+								<span class="live-tit">VR直播</span>
+								<span class="live-icon"></span>
+							</strong>
+							<p>大朋VR头盔E3新品发布会</p>
+						</div>
+						<div class="item-live-img">
+							<img src="img/zhibo2.jpg"/>
+						</div>
+						<div class="live-info">
+							<p class="live-type">
+								<i></i>
+								北京
+							</p>
+							<span class="live-animate"></span>
+						</div>
+					</a>
+				</div>
+			</section>
+			<!--新用户专享权益-->
+			<section class="floor">
+				<div class="new-user-container">
+					<div class="new-user-bgimg">
+						<img src="img/xinyonhu1.jpg"/>
+					</div>
+					<div class="new-user-content">
+						<a href="javascript:;" class="new-user-col2 padding-r-1">
+							<img src="img/xinyonhu-1.jpg"/>
+						</a>
+						<div class="new-user-col2">
+							<a href="javascript:;" class="new-user-col1 padding-b-1">
+								<img src="img/xinyonhu-2.jpg"/>
+							</a>
+							<a href="javascript:;" class="new-user-col1">
+								<img src="img/xinyonhu-3.jpg"/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="floor">
+				<a href="javascript:;" class="new-user-gift">
+					<img src="img/xinrenzhuanxiang.jpg"/>
+				</a>
+			</section>
+			<!--为您推荐-->
+			<section class="floor" style="background: #f3f3f3;">
+				<div class="recommend-tit">
+					<span class="recommend-tit-layout">
+						<span class="recommend-tit-icon"></span>
+						为您推荐
+					</span>
+				</div>
+				<ul class="recommend-list clearfix">
+					<li>
+						<a href="javascript:;" class="list-product">
+							<img src="img/tuijianshangping1.jpg"/>
+							<span class="list-product-tit">赛亿(Shinee)五风叶电风扇/小吊扇/蚊帐扇/家用学生宿舍静音微吊小风扇FC-60A</span>
+							<span class="list-product-price">
+								<span>¥</span>
+								<span class="big-price">49</span>
+								<span class="small-price">.80</span>
+								<span class="similarBtn">看相似</span>
+							</span>
+						</a>
+					</li>
+					<li class="clearfix">
+						<a href="javascript:;" class="list-product">
+							<img src="img/tuijianshangping2.jpg"/>
+							<span class="list-product-tit">米索满铺拼块地毯 办公室客厅方块地毯 桌球室台球大厅商用拼块地毯 909拼块地毯 50CMx50CM/片</span>
+							<span class="list-product-price">
+								<span>¥</span>
+								<span class="big-price">12</span>
+								<span class="small-price">.00</span>
+								<span class="similarBtn">看相似</span>
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="list-product">
+							<img src="img/tuijianshangping1.jpg"/>
+							<span class="list-product-tit">赛亿(Shinee)五风叶电风扇/小吊扇/蚊帐扇/家用学生宿舍静音微吊小风扇FC-60A</span>
+							<span class="list-product-price">
+								<span>¥</span>
+								<span class="big-price">49</span>
+								<span class="small-price">.80</span>
+								<span class="similarBtn">看相似</span>
+							</span>
+						</a>
+					</li>
+					<li class="clearfix">
+						<a href="javascript:;" class="list-product">
+							<img src="img/tuijianshangping2.jpg"/>
+							<span class="list-product-tit">米索满铺拼块地毯 办公室客厅方块地毯 桌球室台球大厅商用拼块地毯 909拼块地毯 50CMx50CM/片</span>
+							<span class="list-product-price">
+								<span>¥</span>
+								<span class="big-price">12</span>
+								<span class="small-price">.00</span>
+								<span class="similarBtn">看相似</span>
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="list-product">
+							<img src="img/tuijianshangping1.jpg"/>
+							<span class="list-product-tit">赛亿(Shinee)五风叶电风扇/小吊扇/蚊帐扇/家用学生宿舍静音微吊小风扇FC-60A</span>
+							<span class="list-product-price">
+								<span>¥</span>
+								<span class="big-price">49</span>
+								<span class="small-price">.80</span>
+								<span class="similarBtn">看相似</span>
+							</span>
+						</a>
+					</li>
+					<li class="clearfix">
+						<a href="javascript:;" class="list-product">
+							<img src="img/tuijianshangping2.jpg"/>
+							<span class="list-product-tit">米索满铺拼块地毯 办公室客厅方块地毯 桌球室台球大厅商用拼块地毯 909拼块地毯 50CMx50CM/片</span>
+							<span class="list-product-price">
+								<span>¥</span>
+								<span class="big-price">12</span>
+								<span class="small-price">.00</span>
+								<span class="similarBtn">看相似</span>
+							</span>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer class="jd-footer">
+			<div class="jd-1px-line"></div>
+			<ul class="jd-footer-link">
+				<li>
+					<a href="javascript:;">登录</a>
+				</li>
+				<li>
+					<a href="javascript:;">注册</a>
+				</li>
+				<li>
+					<a href="javascript:;">反馈</a>
+				</li>
+				<li>
+					<a href="javascript:;">回到顶部</a>
+				</li>
+			</ul>
+			<div class="jd-1px-line"></div>
+			<ul class="jd-footer-platforms">
+				<li class="jd-footer-icon-apps">
+					<a href="javascript" class="badge">客户端</a>
+				</li>
+				<li class="jd-footer-icon-touchscreen current">
+					<a href="javascript">触屏版</a>
+				</li>
+				<li class="jd-footer-icon-pc">
+					<a href="javascript">电脑版</a>
+				</li>
+			</ul>
+			<div class="jd-1px-line"></div>
+			<div class="jd-footer-copyright">Copyright © 2004-2017 京东JD.com 版权所有</div>
+			<div class="jd-footer-copyright-footer"></div>
+		</footer>
+		<script src="js/index.js" type="text/javascript"></script>
+	</body>
+</html>
