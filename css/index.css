@@ -59,6 +59,7 @@ body {
   position: relative;
   padding: 0 10px;
   height: 40px;
+  width: 100%;
 }
 .search-nav .search-logo {
   width: 56px;
@@ -122,6 +123,8 @@ body {
   font-size: 15px;
   color: #fff;
   line-height: 40px;
+  display: inline-block;
+  white-space: nowrap;
 }
 .bottom-bar {
   width: 100%;
@@ -214,13 +217,12 @@ body {
 .slider {
   width: 100%;
   height: 6.72rem;
-  background: bisque;
   border: 0;
   border-radius: 0;
   position: relative;
+  overflow: hidden;
 }
 .slider .slider-box {
-  overflow: hidden;
   height: 100%;
 }
 .slider .slider-box li {

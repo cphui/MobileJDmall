@@ -79,11 +79,12 @@ window.onload = function(){
 			var nowTime = new Date().getTime();
 			var endPoint = e.changedTouches[0].pageX;
 		    var moveX = cssTransform(box,"translateX");
-		    now = Math.round(-moveX/sliderWidth);
 		    if (endPoint < startPoint && nowTime - lastTime < 250) {
-		    		now++;
+	    		now = Math.ceil(-moveX/sliderWidth);
 		    }else if (endPoint > startPoint && nowTime - lastTime < 250) {
-		    		now--;
+	    		now = Math.floor(-moveX/sliderWidth);
+		    }else {
+		    	now = Math.round(-moveX/sliderWidth);
 		    }
 		    tab();
 		    auto();
@@ -182,10 +183,12 @@ window.onload = function(){
 		var endPoint = e.changedTouches[0].pageX;
 	    var moveX = cssTransform(seckillSlider,"translateX");
 	    now = Math.round(-moveX/sliderWidth);
+	    showNumber = Math.ceil(hWidth/sliderWidth);
+	    
 	    if (endPoint < startPoint) {
 	    		now = Math.ceil(-moveX/sliderWidth);
-	    		if (now>seckillLi.length-4) {
-	    			now = seckillLi.length-4;
+	    		if (now>seckillLi.length-showNumber) {
+	    			now = seckillLi.length-showNumber;
 	    		}
 	    }else if (endPoint > startPoint && now>0) {
 	    		now = Math.floor(-moveX/sliderWidth);
